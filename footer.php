@@ -1,0 +1,14 @@
+</div> <!-- end main content section -->
+</div> 
+
+<div id="footer"><div class="spacer"></div>
+<hr />
+<p class="left"></p>
+<p class="right">&copy;2008-9</p>
+<p>&nbsp;</p>
+</div> <!-- end footer -->
+
+</div> <!-- end container -->
+</body>
+
+</html>
