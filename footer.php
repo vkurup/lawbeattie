@@ -4,7 +4,7 @@
 <div id="footer"><div class="spacer"></div>
 <hr />
 <p class="left"></p>
-<p class="right">&copy;2008-9</p>
+<p class="right">&copy;2008-2010</p>
 <p>&nbsp;</p>
 </div> <!-- end footer -->
 
