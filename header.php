@@ -26,7 +26,6 @@
 	<ul>
         <li><a href="./">Home</a></li>
         <li><a href="bio.php">Attorney Bio</a></li>
-        <li><a href="news.php">News</a></li>
         <li><a href="publications.php">Publications</a></li>
         <li><a href="links.php">Links</a></li>
         <li><a href="contact.php">Contact Us</a></li>
