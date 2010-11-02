@@ -9,6 +9,7 @@ Durham, NC 27701<br />
 <br />
 Tel: (919) 688-5171<br />
 Email: lawbeattie@gmail.com
+Facebook: <a href="http://www.facebook.com/pages/Durham-NC/Law-Office-of-Ethan-O-Beattie/76305578018">View our facebook page.</a>
 </p>
 
 <?php include("footer.php"); ?>
