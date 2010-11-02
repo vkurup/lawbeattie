@@ -38,8 +38,6 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p><a href="http://www.facebook.com/pages/Durham-NC/Law-Office-of-Ethan-O-Beattie/76305578018"><img src="img/facebook.png"></a></p>
 <p>
 "give me your tired, your poor, your huddled masses, yearning to breathe
