@@ -5,7 +5,7 @@
 In 1620, the first members of my American family arrived on New England
 shores seeking a better life and free opportunities.  Over time, various
 immigration standards, policies and laws have provided an inlet for future
-generations to arrive.  John F. Kennedy once wrote that "every American who
+generations to arrive.  John F. Kennedy wrote that "every American who
 ever lived, with the exception of one group, was either an immigrant
 himself or a descendant of immigrants." It is my strongest intent and
 desire to assist today's families in attaining the American Dream.  The Law
