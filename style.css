@@ -196,3 +196,6 @@ h3 {
 .delicious-extended:after {
     content: ")"
 }
+img {
+    border: none;
+}
