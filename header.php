@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>The Beattie Law Firm, PLLC</title>
+<title>Beattie Law Firm, PLLC</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -11,7 +11,7 @@
 <div id="header">
 <img src="img/liberty.jpg" align="left" alt="Lady Liberty">
 <br /><br /><br />
-<h1>The Beattie Law Firm, PLLC</h1>
+<h1>Beattie Law Firm, PLLC</h1>
 <br clear="all" />
 <br />
 <hr />

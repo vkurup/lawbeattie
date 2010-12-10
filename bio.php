@@ -34,7 +34,7 @@ Education:
 <p>&nbsp;</p>
 
 <p>
-Ethan Beattie founded the Beattie Law Firm in Durham, North Carolina
+Ethan Beattie founded Beattie Law Firm, PLLC in Durham, North Carolina
 in October 2008.  A former associate with the Law Office of Orlando
 A. Gamarra in Arlington, Virginia, Ethan received his juris doctor
 degree from William Mitchell College of Law in St. Paul, Minnesota in

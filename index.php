@@ -9,7 +9,7 @@ an inlet for future generations to arrive.  John F. Kennedy wrote that
 "every American who ever lived, with the exception of one group, was
 either an immigrant himself or a descendant of immigrants." It is my
 strongest intent and desire to assist today's families in attaining
-the American Dream.  The Beattie Law Firm is dedicated to provide
+the American Dream.  Beattie Law Firm, PLLC is dedicated to provide
 sound legal advice and representation in the ever-growing and too
 often complex realm of immigration law.  The door was open for my
 family; now let's see if, together, we can open that door for yours.
