@@ -43,8 +43,7 @@ Professor A. John Radsan and participated in the Rosalie Wahl Moot
 Court Competition.  Ethan graduated <i>cum laude</i> from Virginia
 Commonwealth University in 2003 with a bachelor of arts in History.
 Prior to attending Virginia Commonwealth, Ethan served four years as a
-Radioman in the United States Navy onboard USS Thorn.  Ethan and his
-wife, Puja Puri, live in Chapel Hill, North Carolina.
+Radioman in the United States Navy onboard USS Thorn.
 </p>
 
 <p>
