@@ -6,7 +6,7 @@ Setup
 
 #. Install `complexity <https://complexity.readthedocs.io/en/latest/>`_::
 
-     pip install -r requirements.txt
+     pip install -r requirements/dev.txt
 
 #. Build the site::
 
