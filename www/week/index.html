@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+        #freetext {
+            margin: 10px auto;
+            width: 600px;
+        }
+        [contenteditable="true"] { padding: 10px; outline: 2px dashed #CCC; }
+        [contenteditable="true"]:hover { outline: 2px dashed #0090D2; }
+        </style>
+    </head>
+    <body>
+        <h2>Your week</h2>
+        <hr />
+        <div id="freetext" contenteditable="true">
+            Click to change this text. Once you are done, hit Ctrl-P to print the page.
+        </div>
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;src=lawbeattie%40gmail.com&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=800&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="1024" height="800" frameborder="0" scrolling="no"></iframe>
+        <iframe id="forecast_embed"
+                type="text/html"
+                frameborder="0"
+                height="245" width="100%"
+                src="http://forecast.io/embed/#lat=35.955797&lon=-79.104352&name=Green House">
+        </iframe>
+    </body>
+</html>
