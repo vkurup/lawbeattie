@@ -12,7 +12,26 @@ Setup
 
      complexity src
 
-#. This installs the site into the `www` folder and runs a server at localhost:9000. Use the
+#. This installs the site into the `www` folder and runs a server at localhost:9090. Use the
    following command to just build the pages::
 
      complexity --noserver src
+
+
+Dokku setup
+===========
+
+#. Make sure that your SSH config for dokku is set up::
+
+     Host dokku
+       Hostname git.drkurup.com
+       User dokku
+       RequestTTY yes
+
+#. create the app::
+
+     ssh dokku apps:create lawbeattie
+
+#. add the dokku git remote::
+
+     git remote add dokku dokku@git.drkurup.com:lawbeattie
