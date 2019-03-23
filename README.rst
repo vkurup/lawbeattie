@@ -1,22 +1,12 @@
 lawbeattie.com
 --------------
 
-Setup
-=====
+Local Setup
+===========
 
 #. Install `complexity <https://complexity.readthedocs.io/en/latest/>`_::
 
      pip install -r requirements/dev.txt
-
-#. Build the site::
-
-     complexity src
-
-#. This installs the site into the `www` folder and runs a server at localhost:9090. Use the
-   following command to just build the pages::
-
-     complexity --noserver src
-
 
 Dokku setup
 ===========
@@ -31,18 +21,30 @@ Dokku setup
 #. create the app::
 
      ssh dokku apps:create lawbeattie
+     ssh dokku apps:create lawbeattie-staging
 
-#. add the dokku git remote::
+#. add the dokku git remote for production::
 
-     git remote add dokku dokku@git.drkurup.com:lawbeattie
-     git push dokku master
+     git remote add prod dokku@git.drkurup.com:lawbeattie
+     git push prod master
+
+#. add the dokku git remote for staging::
+
+     git remote add staging dokku@git.drkurup.com:lawbeattie-staging
+     git push staging master
 
 
 Site changes
 ============
 
-#. Make the changes in the `src` directory
+#. Make the changes in the `src` directory. Build the site and view it at localhost:9090::
 
-#. Commit to master and push master to dokku::
+     complexity src
 
-     git push dokku master
+#. When you're satisfied, commit to develop and push develop to staging::
+
+     git push staging master
+
+#. When you're satisfied with staging, merge develop to master and push master to prod::
+
+     git push prod master
