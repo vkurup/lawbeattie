@@ -22,6 +22,7 @@ Dokku setup
 
      ssh dokku apps:create lawbeattie
      ssh dokku apps:create lawbeattie-staging
+     ssh dokku git:set lawbeattie-staging deploy-branch develop
 
 #. add the dokku git remote for production::
 
@@ -31,7 +32,7 @@ Dokku setup
 #. add the dokku git remote for staging::
 
      git remote add staging dokku@git.drkurup.com:lawbeattie-staging
-     git push staging master
+     git push staging develop
 
 
 Site changes
@@ -43,7 +44,7 @@ Site changes
 
 #. When you're satisfied, commit to develop and push develop to staging::
 
-     git push staging master
+     git push staging develop
 
 #. When you're satisfied with staging, merge develop to master and push master to prod::
 
