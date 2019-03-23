@@ -35,3 +35,14 @@ Dokku setup
 #. add the dokku git remote::
 
      git remote add dokku dokku@git.drkurup.com:lawbeattie
+     git push dokku master
+
+
+Site changes
+============
+
+#. Make the changes in the `src` directory
+
+#. Commit to master and push master to dokku::
+
+     git push dokku master
