@@ -38,6 +38,7 @@ Dokku setup
 
      ssh dokku domains:add lawbeattie lawbeattie.com
      ssh dokku domains:add lawbeattie www.lawbeattie.com
+     ssh dokku domains:add lawbeattie lawbeattie.drkurup.com
 
 
 Site changes
