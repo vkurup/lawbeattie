@@ -34,6 +34,11 @@ Dokku setup
      git remote add staging dokku@git.drkurup.com:lawbeattie-staging
      git push staging develop
 
+#. add domains::
+
+     ssh dokku domains:add lawbeattie lawbeattie.com
+     ssh dokku domains:add lawbeattie www.lawbeattie.com
+
 
 Site changes
 ============
