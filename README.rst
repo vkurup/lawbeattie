@@ -8,8 +8,20 @@ Local Setup
 
      pip install -r requirements/dev.txt
 
+
+Github pages setup
+==================
+
+This is deployed to GH pages using the `docs folder on master branch` option. A CNAME file is
+created at the top level for the custom domain. HTTPS is enabled in GitHub. Two CNAME records are
+created at the registrar for `www` and `@`, both pointing to vkurup.github.io.
+
+
 Dokku setup
 ===========
+
+Note, this may no longer work since we moved the generated HTML files to `docs` instead of `www`,
+which may be a special value for Dokku's Nginx buildpack.
 
 #. Make sure that your SSH config for dokku is set up::
 
@@ -48,10 +60,12 @@ Site changes
 
      complexity src
 
-#. When you're satisfied, commit to develop and push develop to staging::
+#. GH Pages: once the branch is pushed to master, it will be deployed.
+
+#. Dokku: When you're satisfied, commit to develop and push develop to staging::
 
      git push staging develop
 
-#. When you're satisfied with staging, merge develop to master and push master to prod::
+#. Dokku: When you're satisfied with staging, merge develop to master and push master to prod::
 
      git push prod master
